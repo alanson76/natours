@@ -72,7 +72,7 @@ app.use(hpp({
     whitelist: ['duration', 'ratingsAverage', 'maxGroupSize', 'difficulty', 'price']
 }));
 
-app.user(compression());
+app.use(compression());
 
 
 // app.use((req, res, next) => {
