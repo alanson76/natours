@@ -122,7 +122,7 @@ app.all('*', (req, res, next) => {
 });
 
 
-//error handling middleware
+//global error handling middleware
 app.use(globalErrorHandler);
 
 
