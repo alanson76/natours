@@ -96,8 +96,8 @@ const sendErrorProd = (err, req, res) => {
 
 module.exports = (err, req, res, next) => {
     // console.log(err.stack);
-    console.log('global error handler');
-    console.log(err);
+    // console.log('global error handler');
+    // console.log(err);
 
     err.statusCode = err.statusCode || 500;
     err.status = err.status || 'error';
